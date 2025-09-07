@@ -110,7 +110,7 @@ async def process_nickname(message: Message, state: FSMContext, bot: Bot):
 @router.message(F.text.lower() == 'да, подписан(а)')
 async def answer_yes(message: Message, bot: Bot):
     try:
-        member = await bot.get_chat_member(chat_id=-1002163802770, user_id=message.from_user.id)
+        member = await bot.get_chat_member(chat_id=-1002485471071, user_id=message.from_user.id)
 
         if member.status in ["member", "administrator", "creator"]:
             builder = ReplyKeyboardBuilder()
@@ -141,7 +141,7 @@ async def answer_yes(message: Message, bot: Bot):
 async def answer_no(message: Message):
     await message.answer(
         'Тогда обязательно подпишись на канал, чтобы получить подарок:\n'
-        'https://t.me/kolyamoskkva\n\n'
+        'https://t.me/angeliSani\n\n'
         'После этого вернись и нажми "Да, подписан(а)"',
         reply_markup=get_response_kb()
     )
