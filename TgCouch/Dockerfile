@@ -7,8 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 8000
-
 ENV PYTHONUNBUFFERED=1
 
 CMD ["python", "bot.py"]
