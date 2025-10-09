@@ -122,7 +122,7 @@ async def answer_yes(message: Message, bot: Bot):
             )
 
             await message.answer_audio(
-                audio="CQACAgIAAxkBAAE6rgtovAABMrEzOXjdRrMAAcBQWYJf3SmIAAIdewACuZgYS4D-OA_oxMdSNgQ",
+                audio="CQACAgIAAxkBAAE8PpFo57l6gbAbCd6vM5JesWZrcr85GAACHXsAArmYGEuA_jgP6MTHUjYE",
                 caption="🎧 <b>Энергопрактика: Освобождение от излишнего напряжения</b>\n\n"
                         "Автор — Александр Беляков.\n"
                         "Слушай с закрытыми глазами, в тишине.",
